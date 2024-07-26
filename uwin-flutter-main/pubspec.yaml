@@ -1,0 +1,157 @@
+name: uwin_flutter
+description: uWin.mu mobile application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.10.22+196
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter_share: ^2.0.0
+  go_router:
+  barcode_widget: ^2.0.1
+  cached_network_image:
+  crypto: ^3.0.1
+  cupertino_icons: ^1.0.3
+  easy_debounce: ^2.0.1
+  flutter_facebook_auth: ^5.0.7
+  cloud_firestore:
+  firebase_auth:
+  firebase_core:
+  firebase_messaging:
+  firebase_analytics:
+  flutter_launcher_icons: ^0.9.2
+  webview_flutter: ^2.1.1
+  font_awesome_flutter: ^9.1.0
+  geolocator: ^7.7.0
+  google_maps_flutter: ^2.0.11
+  google_sign_in: ^5.1.1
+  http: ^0.13.4
+  intl: ^0.17.0
+  provider: ^6.0.1
+  qr_flutter: ^4.0.0
+  flutter_qr_reader: ^1.0.5
+  rxdart: ^0.27.2
+  shared_preferences: ^2.0.8
+  sign_in_with_apple: ^3.2.0
+  sqflite: ^2.0.0+4
+  url_launcher: ^6.0.12
+  youtube_player_iframe:
+  flutter:
+    sdk: flutter
+  flutter_barcode_scanner:
+  image_picker: 0.8.4+11
+  share_plus: ^6.3.0
+  sms_autofill: ^2.3.0
+  # flutter_hms_gms_availability: ^3.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.17.10
+  integration_test:
+    sdk: flutter
+  mockito: ^3.0.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/google_logo.png
+    - assets/facebook_logo.png
+    - assets/category_icons/fashion.png
+    - assets/category_icons/electronics_mobile.png
+    - assets/category_icons/fashion.png
+    - assets/category_icons/food.png
+    - assets/category_icons/health_beauty.png
+    - assets/category_icons/leisure.png
+    - assets/category_icons/home.png
+    - assets/category_icons/supermarkets.png
+    - assets/category_icons/services.png
+    - assets/category_icons/other.png
+    - assets/category_icons/switch.png
+    - assets/category_icons/children.png
+    - assets/category_icons/art.png
+    - assets/map.png
+    - assets/qrcode_sample.png
+    - assets/my_wins_icons/coupon.png
+    - assets/my_wins_icons/flash_sale.png
+    - assets/my_wins_icons/loyalty.png
+    - assets/my_wins_icons/other_cards.png
+    - assets/my_wins_icons/voucher.png
+    - assets/delivery_icon.png
+    - assets/myvoice-monochrome.png
+    - assets/myvoice_logo.png
+    - assets/uwin-logo-v2.png
+    - assets/uwin-logo-v3.png
+    - assets/uwin-logo-v3-half.png
+    - assets/icon_golden.png
+    - assets/universe/category_art.png
+    - assets/universe/category_entertainment.png
+    - assets/universe/category_events.png
+    - assets/universe/category_fashion.png
+    - assets/universe/category_free.png
+    - assets/universe/category_groceries.png
+    - assets/universe/category_health.png
+    - assets/universe/category_home_garden.png
+    - assets/universe/category_markets.png
+    - assets/universe/category_nautical.png
+    - assets/universe/category_nightlife.png
+    - assets/universe/category_other.png
+    - assets/universe/category_park.png
+    - assets/universe/category_restaurant.png
+    - assets/universe/category_shopping.png
+    - assets/universe/category_technologies.png
+    - assets/universe/category_kids_teens.png
+    - assets/images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/uwin-logo-v2-bg-white.jpeg"
+  image_path_android: "assets/images/uwin_logo.png"
